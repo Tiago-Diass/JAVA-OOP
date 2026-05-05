@@ -8,14 +8,13 @@ public class Viatura {
     public Viatura() {
     }
 
-    
-
     public Viatura(String tipo, int nRodas, int velocidadeMax, String matricula) {
         this.tipo = tipo;
         this.nRodas = nRodas;
         this.velocidadeMax = velocidadeMax;
         this.matricula = matricula;
     }
+
 
     public String getTipo() {
         return tipo;
@@ -44,7 +43,6 @@ public class Viatura {
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
-
 
 
     public void mostraInfo() {
