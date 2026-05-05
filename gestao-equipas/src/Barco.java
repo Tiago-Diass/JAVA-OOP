@@ -3,7 +3,7 @@ public class Barco extends Viatura{
     private boolean temPiscina;
 
     public Barco() {
-        super("Barco", 0, 0, "");
+        super("Barco", 0, 0);
     }
 
     public boolean isTemPiscina() {
@@ -18,8 +18,10 @@ public class Barco extends Viatura{
         System.out.println("Tipo: " + getTipo());
         System.out.println("Número de Rodas: " + getnRodas());
         System.out.println("Velocidade Máxima: " + getVelocidadeMax());
-        System.out.println("Matricula: " + getMatricula());
-        if(temPiscina) System.out.println("Tem piscina: Sim :-)");
-        else System.out.println("Tem piscina: Não :-(");
+        if(temPiscina) {
+            System.out.println("Tem piscina: Sim :-)");
+        } else {
+            System.out.println("Tem piscina: Não :-(");
+        }
     }
 }
