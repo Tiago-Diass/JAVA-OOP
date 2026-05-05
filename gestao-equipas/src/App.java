@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Viatura v1 = new Viatura();
+        Barco v1 = new Barco();
 
         /*v1.setTipo("Carro");
         v1.setnRodas(4);
